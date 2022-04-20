@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-image: url(./images/black-furniture-bedroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#menu {
+    background-color: #2a2830;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(155, 152, 152);;
+    width: 95%;
+    height: 10%;
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    z-index: 1;
+}
+#menu span,
+#menu i {
+    cursor: pointer;
+}
+#menu span:hover {
+    transform: scale(1.5);
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(155, 152, 152);;
+}
+#menu a:hover,
+#menu i:hover {
+    color: #fff;
+}
+#menu nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%; 
+}
+#left-side {
+    width: 30%;
+    height: 100vh;
+    background-color: #252429fd;
+    box-shadow: 50px 0px 15px rgb(3, 0, 0);
+    position: relative;
+}
+#left-side span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 400px;
+    font-weight: 700;
+    position: absolute;
+    top: 10%;
+    left: -25%;
+    color: #38363dc5;
+}
+#left-side p:nth-child(2){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(155, 152, 152);
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+#left-side p:nth-child(3){
+    font-family: 'Libre Baskerville', serif;
+    font-size: 100px;
+    color: rgb(196, 195, 195);
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+#left-side p:nth-child(4){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(155, 152, 152);
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    width: 200px;
+}
+#left-side a:nth-child(5){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(155, 152, 152);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    width: 200px;
+    text-decoration: none;
+}
+#left-side a:nth-child(5):hover {
+    color: rgb(141, 97, 31);
+}
+#right-side {
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(155, 152, 152);
+}
+#right-side p:nth-child(1) {
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
